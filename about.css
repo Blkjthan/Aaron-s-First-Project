@@ -1,0 +1,140 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f4f8;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(88, 88, 143);
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(140,16,16,0.2);
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #edf2f4;
+  }
+  
+  /* Navigation Menu */
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .menu li a:hover {
+    color: #00c3ff;
+  }
+  
+  ...........................................
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+
+.company-name-colored {
+    color: #101011; /* Black color */
+}
+
+.company-name-bold {
+    font-weight: bold;
+}
+
+/* Main Content Layout */
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Image on the Left */
+.company-image {
+    width: px;
+    height: auto;
+    border-radius: 100px;
+}
+
+/* Text Section */
+.text-content {
+    max-width: 600px;
+}
+
+/* Footer fixed at bottom */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(88, 88, 143);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+--------------------------------------
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+
+.company-name-colored {
+    color: #1976d2; /* Blue color */
+}
+
+.company-name-bold {
+    font-weight: bold;
+}
+
+/* Main Content Layout */
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Image on the Left */
+.company-image {
+    width: px;
+    height: auto;
+    border-radius: 100px;
+}
+
+/* Text Section */
+.text-content {
+    max-width: 600px;
+}

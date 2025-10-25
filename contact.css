@@ -1,0 +1,155 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f4f8;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(88, 88, 143);
+    padding: 15px 40px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(140,16,16,0.2);
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #edf2f4;
+  }
+  
+  /* Navigation Menu */
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .menu li a:hover {
+    color: #00c3ff;
+  }
+ 
+  
+  /* Contact Layout */
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  /* Left Side Image */
+  .contact-image {
+    flex: 1;
+    min-width: 350px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: 57%;
+    object-fit: cover;
+  }
+  
+  /* Right Side Form */
+  .contact-form {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .contact-form h2 {
+    color: #2b7de9;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background: #2b7de9;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #005cbf;
+  }
+  
+  /* Business Info */
+  .business-info {
+    margin-top: 30px;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .business-info h3 {
+    color: #2b7de9;
+  }
+  
+  .business-info p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-image img {
+      height: 300px;
+    }
+  }
+
+  /* Footer fixed at bottom */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(88, 88, 143);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  
